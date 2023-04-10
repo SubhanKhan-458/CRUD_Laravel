@@ -24,4 +24,12 @@ Route::group(['middleware' => ['auth']], function() {
     Route::resource('roles', RoleController::class);
     Route::resource('users', UserController::class);
     Route::resource('products', ProductController::class);
+    Route::resource('page', ProductController::class);
 });
+
+// Route::get('page/create', [App\Http\Controllers\PageController::class, 'create']);
+// Route::post('page', [App\Http\Controllers\PageController::class, 'store']);
+// Route::get('page/{page}/edit', [App\Http\Controllers\PageController::class, 'edit']);
+// Route::get('page/{page}', [App\Http\Controllers\PageController::class, 'show']);
+// Route::put('page/{page}', [App\Http\Controllers\PageController::class, 'update']);
+// Route::delete('page/{page}', [App\Http\Controllers\PageController::class, 'destroy']);
