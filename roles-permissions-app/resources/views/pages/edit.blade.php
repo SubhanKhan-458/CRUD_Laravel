@@ -14,7 +14,7 @@
                         </div>
                     @endif
                     
-                    <form action="/page/{{$page->id}}" method="post">
+                    <form action="/pages/{{$page->id}}" method="post">
                         @csrf
                         @method('PUT')
                         <div class="form-group">

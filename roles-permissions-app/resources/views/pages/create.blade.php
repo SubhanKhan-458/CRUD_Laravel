@@ -14,7 +14,7 @@
                         </div>
                     @endif
                     
-                    <form action="/page" method="post">
+                    <form action="/pages" method="post">
                         @csrf
                         <div class="form-group">
                             <label for="">Page Title</label>

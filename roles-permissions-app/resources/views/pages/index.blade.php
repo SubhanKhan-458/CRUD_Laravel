@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
     <div class="col-12">
-                <a href="page/create" class="btn btn-primary mb-2">Create Page</a> 
+                <a href="pages/create" class="btn btn-primary mb-2">Create Page</a> 
                 <br>
                 <table class="table table-bordered">
                     <thead>
