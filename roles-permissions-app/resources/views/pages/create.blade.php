@@ -17,6 +17,11 @@
                     <form action="/pages" method="post">
                         @csrf
                         <div class="form-group">
+                            <label for="">Page Slug</label>
+                            <input type="text" name="slug" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
                             <label for="">Page Title</label>
                             <input type="text" name="title" class="form-control">
                         </div>

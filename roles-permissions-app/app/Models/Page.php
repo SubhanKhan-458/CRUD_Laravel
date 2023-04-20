@@ -4,9 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Page extends Model
 {
+    use SoftDeletes;
     use HasFactory;
 
         /**
@@ -15,6 +17,6 @@ class Page extends Model
      * @var array
      */
     protected $fillable = [
-        'slug', 'header', 'footer', 'title', 'body'
+        'title', 'body'
     ];
 }
